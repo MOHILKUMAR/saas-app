@@ -7,8 +7,6 @@ import NavItems from './NavItems'
 
 const Navbar = () => {
 
-  
-
   return (
     <nav className='navbar'>
       <Link href='/'>
@@ -21,6 +19,7 @@ const Navbar = () => {
 
       <div className='flex items-center gap-8'>
       <NavItems />
+      <p>Sign In</p>
       </div> 
 
     </nav>
